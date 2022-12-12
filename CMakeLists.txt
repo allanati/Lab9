@@ -12,6 +12,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 include_directories("inc/")			 # указываем, где искать файлы заголовков
 
-add_executable("${PROJECT_NAME}" Lab9.cpp			
-								inc/Header.hpp
-								src/Source.cpp)	# добавить исполняемый файл
+add_executable("${PROJECT_NAME}" Lab9.cpp	)	# добавить исполняемый файл
